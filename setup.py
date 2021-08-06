@@ -11,15 +11,15 @@ with open("requirements.txt", "r") as file:
     INSTALL_REQUIRES = file.read().splitlines()
 
 setuptools.setup(
-    name="file_reader",
+    name="hosts_reader",
     version=__version__,
     author=__author__,
     long_description=README,
     long_description_content_type="text/markdown",
     keywords="python file files text excel",
-    url="https://github.com/tybruno/file_reader",
+    url="https://github.com/tybruno/hosts_reader",
     license="MIT",
-    package_data={"file_reader": ["py.typed"]},
+    package_data={"hosts_reader": ["py.typed"]},
     packages=setuptools.find_packages(),
     install_requires=INSTALL_REQUIRES,
     classifiers=[
