@@ -1,0 +1,2 @@
+file_reader @ https://github.com/tybruno/file_reader.git#egg=file_reader
+hosts_parser @ https://github.com/tybruno/hosts_parser.git#egg=hosts_parser
